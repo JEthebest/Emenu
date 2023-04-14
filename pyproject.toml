@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "emenu"
+version = "0.1.0"
+description = ""
+authors = ["disko"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+django-jazzmin = "^2.6.0"
+drf-yasg = "^1.21.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
